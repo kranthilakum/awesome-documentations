@@ -1,7 +1,7 @@
 # Awesome-Documentations 🗒️
 > A curated list of documentations for Web developers
 
-## Frontend Technologies**
+# Frontend Technologies
 
 **Languages**
 - [JavaScript documentation by Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
@@ -114,8 +114,13 @@
 - [WebAssembly specification](https://webassembly.github.io/spec/core/)
 - [Cross Origin Resource Sharing](https://www.w3.org/TR/cors/)
 - [Web Platform](https://webplatform.github.io/)
+- [Hypertext Transfer Protocol, RFC - 2616](https://tools.ietf.org/html/rfc2616)
+- [Simple Object Access Protocol](https://www.w3.org/TR/2000/NOTE-SOAP-20000508/)
+- [XML-RPC, RFC - 3529](https://tools.ietf.org/html/rfc3529)
+- [Representation State Transfer (REST)](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
+- [GraphQL specification](https://graphql.github.io/graphql-spec/June2018/)
 
-## Backend Technologies
+# Backend Technologies
 
 ### Languages
 
@@ -133,6 +138,8 @@
 - [Flask v.1.0](http://flask.pocoo.org/docs/1.0/)
 - [Bottle](https://bottlepy.org/docs/dev/)
 - [Laravel v.5.8](https://laravel.com/docs/5.8)
+- [Play Framework v.2.7.x](https://www.playframework.com/documentation/2.7.x/Home)
+- [Vaadin](https://vaadin.com/docs)
 
 ### Libraries
 
