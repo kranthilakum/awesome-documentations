@@ -24,6 +24,7 @@
 - [RxJS guide](https://rxjs.dev/guide/overview)
 - [React versioned documentation](https://reactjs.org/versions)
 - [Redux](https://redux.js.org/introduction/getting-started)
+- [Vuex](https://vuex.vuejs.org/guide/)
 - [Rambda v.0.19.1 documentation](https://ramdajs.com/0.19.1/docs/)
 - [Lodash](https://lodash.com/docs/)
 - [Underscore](https://underscorejs.org)
@@ -126,6 +127,7 @@
 
 - [Java documentation](https://docs.oracle.com/en/java/)
 - [Scala documentation](https://docs.scala-lang.org)
+- [OCaml documentation](https://ocaml.org/docs/)
 - [Python documentation](https://docs.python.org/3/)
 - [PHP documentation](https://www.php.net/docs.php)
 
