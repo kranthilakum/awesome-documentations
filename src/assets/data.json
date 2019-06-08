@@ -16,5 +16,23 @@
         "imageURL": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
         "category": "frontend",
         "tags": ["javascript", "library", "frontend"]
+    },
+    {
+        "title": "Redux",
+        "content": "A predictable state container for JavaScript apps.",
+        "webURL": "https://redux.js.org",
+        "apiURL": "https://redux.js.org/api/api-reference",
+        "imageURL": "https://redux.js.org/img/redux.svg",
+        "category": "frontend",
+        "tags": ["javascript", "library", "frontend"]
+    },
+    {
+        "title": "Lodash",
+        "content": "A JavaScript utility library delivering consistency, modularity, performance, & extras.",
+        "webURL": "https://lodash.com",
+        "apiURL": "https://lodash.com/docs/4.17.11",
+        "imageURL": "https://upload.wikimedia.org/wikipedia/en/6/6f/Lodash.svg",
+        "category": "frontend",
+        "tags": ["javascript", "library", "frontend"]
     }
 ]

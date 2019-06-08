@@ -31,6 +31,11 @@ export default {
       type: String,
       default: ""
     }
+  },
+  data() {
+    return {
+      searchText: ""
+    }
   }
 };
 </script>

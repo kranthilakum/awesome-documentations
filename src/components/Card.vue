@@ -2,7 +2,6 @@
   <div>
     <b-card
       :title="title"
-      tag="project"
       style="max-width: 20rem;"
       class="mb-2"
     >
@@ -15,18 +14,6 @@
         fluid
       />
       <b-card-text>{{ content }}</b-card-text>
-
-      <b-row class="my-3 justify-content-md-center">
-        <b-badge
-          v-for="(tag, index) in tags"
-          :key="index"
-          pill
-          variant="light"
-          class="mx-1"
-        >
-          {{ tag }}
-        </b-badge>
-      </b-row>
 
       <b-row align-h="between">
         <b-link
@@ -44,6 +31,17 @@
           API Docs
         </b-link>
       </b-row>
+      <div slot="footer">
+        <b-badge
+          v-for="(tag, index) in tags"
+          :key="index"
+          pill
+          variant="secondary"
+          class="mx-1"
+        >
+          {{ tag }}
+        </b-badge>
+      </div>
     </b-card>
   </div>
 </template>
@@ -74,18 +72,22 @@
             },
             apiUrl: {
               type: String,
+              required: true,
               default: ""
             },
             imageUrl: {
               type: String,
+              required: true,
               default: ""
             },
             category: {
               type: String,
+              required: false,
               default: ""
             },
             tags: {
               type: Array,
+              required: false,
               default: () => []
             }
         }

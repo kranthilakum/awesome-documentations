@@ -2,7 +2,10 @@
   <div id="app">
     <b-container fluid>
       <Header msg="Awesome Documentations" />
-      <b-row class="mx-3">
+      <b-card-group
+        deck
+        class="justify-content-md-center"
+      >
         <Card
           v-for="(card, index) in cards"
           :key="index"
@@ -15,7 +18,7 @@
           :tags="card.tags"
           class="mx-3"
         />
-      </b-row>
+      </b-card-group>
     </b-container>
   </div>
 </template>
