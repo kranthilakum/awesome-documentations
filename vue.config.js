@@ -1,3 +1,4 @@
-export const publicPath = process.env.NODE_ENV === 'production'
-    ? '/awesome-documentations/'
-    : '/';
+module.exports = {
+    publicPath: (process.env.NODE_ENV === 'production')
+        ? '/awesome-documentations/' : '/'
+}

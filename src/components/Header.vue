@@ -1,26 +1,31 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      A curated list of documentations for a curious Web developer,<br>
-      check out the
-      <a
-        href="https://github.com/kranthilakum/awesome-documentations"
-        target="_blank"
-        rel="noopener"
-      >Github project</a>.
-    </p>
+  <b-jumbotron
+    fluid
+    class="header"
+  >
     <div>
-      <b-row class="my-5 justify-content-md-center">
-        <b-col sm="3">
-          <b-form-input
-            v-model="searchText"
-            placeholder="Search Documentation"
-          />
-        </b-col>
-      </b-row>
+      <h1>{{ msg }}</h1>
+      <p>
+        A curated list of documentations for a curious Web developer,<br>
+        check out the
+        <a
+          href="https://github.com/kranthilakum/awesome-documentations"
+          target="_blank"
+          rel="noopener"
+        >Github project</a>.
+      </p>
+      <div>
+        <b-row class="justify-content-md-center">
+          <b-col sm="3">
+            <b-form-input
+              v-model="searchText"
+              placeholder="Search Documentation"
+            />
+          </b-col>
+        </b-row>
+      </div>
     </div>
-  </div>
+  </b-jumbotron>
 </template>
 
 <script>
@@ -54,6 +59,14 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: #02c39a;
+}
+a:hover {
+  color: #f0f3bd;
+  text-decoration: none;
+}
+.header {
+  background-color: #05668d;
+  color: whitesmoke;
 }
 </style>

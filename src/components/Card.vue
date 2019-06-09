@@ -47,13 +47,8 @@
 </template>
 
 <script>
-    import { BCard } from 'bootstrap-vue';
-
     export default {
         name: "Card",
-        components: {
-            'b-card': BCard
-        },
         props: {
             title: {
               type: String,

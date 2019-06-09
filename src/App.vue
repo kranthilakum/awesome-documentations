@@ -1,7 +1,7 @@
 <template>
   <div id="app">
+    <Header msg="Awesome Documentations" />
     <b-container fluid>
-      <Header msg="Awesome Documentations" />
       <b-card-group
         deck
         class="justify-content-md-center"
@@ -43,12 +43,14 @@ export default {
 </script>
 
 <style>
+body {
+  background-color: #00a896;
+}
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
