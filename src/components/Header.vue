@@ -14,16 +14,6 @@
           rel="noopener"
         >Github project</a>.
       </p>
-      <div>
-        <b-row class="justify-content-md-center">
-          <b-col sm="3">
-            <b-form-input
-              v-model="searchText"
-              placeholder="Search Documentation"
-            />
-          </b-col>
-        </b-row>
-      </div>
     </div>
   </b-jumbotron>
 </template>

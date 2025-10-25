@@ -1,19 +1,54 @@
 {
-  "name": "app",
-  "version": "0.1.0",
-  "private": true,
+  "name": "awesome-documentations",
+  "version": "1.0.0",
+  "description": "A curated collection of developer documentation resources with an interactive Vue.js web interface",
+  "author": "kranthilakum",
+  "license": "MIT",
+  "homepage": "https://github.com/kranthilakum/awesome-documentations#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kranthilakum/awesome-documentations.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kranthilakum/awesome-documentations/issues"
+  },
+  "keywords": [
+    "documentation",
+    "developer-tools",
+    "vue",
+    "frontend",
+    "backend",
+    "javascript",
+    "web-development",
+    "curated-list",
+    "developer-resources"
+  ],
+  "engines": {
+    "node": ">=12.0.0",
+    "npm": ">=6.0.0"
+  },
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "serve": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service serve",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service build",
+    "preview": "npm run build && npx http-server dist",
     "lint": "vue-cli-service lint",
-    "test:unit": "vue-cli-service test:unit"
+    "lint:fix": "vue-cli-service lint --fix",
+    "test": "vue-cli-service test:unit",
+    "test:unit": "vue-cli-service test:unit",
+    "test:watch": "vue-cli-service test:unit --watch",
+    "test:coverage": "vue-cli-service test:unit --coverage"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.1.0",
     "bootstrap-vue": "^2.0.0-rc.22",
     "core-js": "^2.6.5",
+    "fuse.js": "^7.1.0",
     "vue": "^2.6.10"
   },
   "devDependencies": {
+    "@babel/plugin-transform-class-properties": "^7.27.1",
+    "@babel/plugin-transform-nullish-coalescing-operator": "^7.27.1",
+    "@babel/plugin-transform-optional-chaining": "^7.28.5",
     "@vue/cli-plugin-babel": "^3.8.0",
     "@vue/cli-plugin-eslint": "^3.8.0",
     "@vue/cli-plugin-unit-jest": "^3.8.0",
